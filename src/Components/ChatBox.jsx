@@ -8,7 +8,7 @@ const ChatBox = () => {
     const [loading, setLoading] = useState(false);
     const messagesEndRef = useRef(null);
 
-    const API_URL = "http://localhost:8000";
+    const API_URL = "https://backend-nine-ruby-89.vercel.app";
 
     const sendMessage = async () => {
         if (!userMsg.trim()) return;
