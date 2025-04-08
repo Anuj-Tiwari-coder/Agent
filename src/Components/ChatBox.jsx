@@ -63,7 +63,7 @@ const ChatBox = () => {
             >
                 {/* Header */}
                 <div className="flex items-center justify-between px-6 py-4 border-b border-white/10">
-                    <h1 className="text-2xl font-semibold">🧠 Gemini AI </h1>
+                    <h1 className="text-2xl font-semibold">🧠 AI BOT </h1>
                     <button
                         onClick={() => setDarkMode((prev) => !prev)}
                         className="px-4 py-1 text-sm font-medium rounded-lg transition bg-blue-600 text-white hover:bg-blue-700"
